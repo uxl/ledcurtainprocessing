@@ -34,10 +34,10 @@ void scrollMessage(String s, float speed)
 void draw()
 {
   background(0);
-  scale(-1.5,1);
+  scale(1.5,1);
   
   fill(57, 182, 231);
-  scrollMessage("Cantina", 0.6); //speed
+  scrollMessage("Cantina", 0.4); //speed
   
   filter(blur);
 }
